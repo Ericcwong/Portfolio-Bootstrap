@@ -1,0 +1,14 @@
+div{
+    border: 1px solid blue;
+}
+
+
+.navbar-brand.navbar-center{
+    position: absolute;
+    left:25%;
+}
+
+.navbar-nav.navbar-center{
+    position: absolute;
+    left: 60%;
+}
