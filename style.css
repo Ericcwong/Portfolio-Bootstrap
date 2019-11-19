@@ -1,7 +1,6 @@
-div{
+ div{
     border: 1px solid blue;
 }
-
 
 .navbar-brand.navbar-center{
     position: absolute;
@@ -12,3 +11,8 @@ div{
     position: absolute;
     left: 60%;
 }
+
+#selfie{
+    width:200px;
+    height:200px;
+} 

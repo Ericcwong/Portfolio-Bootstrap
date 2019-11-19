@@ -10,42 +10,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="text-center">
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-        <div class="main_container">
-          <div class="header_row">
-            <div class="col-xs-2"></div><!--the empty margin to the left-->
-            <div class="col-xs-8">
-                <nav class="navbar navbar-expand-sm navbar-dark bg-white nav">
-                    <a class="navbar-brand bg-success navbar-center p-5" href="#">Eric Wong</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav navbar-center">
-                        <li class="nav-item active">
-                          <a class="nav-link text-muted" href="#">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-muted" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-muted" href="#">Contact</a>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                  </nav>
-            </div><!--end of navbar-->
-            <div class="col-xs-2"></div><!--the empty margin to the right-->
-          </div><!--end of header_row-->
-          <div class="col-xs-2"></div><!--the empty margin to the left-->
-        </div><!--end of main_container-->
+      <div class="main_container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="top_nav mb-auto">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Eric Wong</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav> 
+        </header>
+        <main class="home_content">
+            <img src="images/Selfie.jpg" id="selfie" alt="Selfie">
+          <p>Hello, my name is Eric Wong and welcome to my portfolio. I am an 22 year old student who is attending the University of Utah coding bootcamp. This portfolio will display all the works that I have done through out the coding bootcamp
+              If you have any questions about my work or contacting, click on the Contact tab and send me an email. I will try to respond within a day.</p>
+        </main>
+      </div><!--end of main_container-->
   </body>
 </html>
