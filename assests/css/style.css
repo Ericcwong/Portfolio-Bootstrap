@@ -1,0 +1,22 @@
+.header-name{
+    color:white;
+    background: #59aaa5;
+  }
+  .main-title{
+    color:#59aaa5
+  }
+  img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  @media(max-width: 640px){
+    img{
+      min-width: 600px;
+      min-height: 600px;
+      text-align: center;
+    }
+    .main-title{
+      text-align: center;
+    }
+  }
