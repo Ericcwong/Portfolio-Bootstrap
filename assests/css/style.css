@@ -1,3 +1,4 @@
+/*Standard changes*/
 .header-name{
     color:white;
     background: #59aaa5;
@@ -9,8 +10,8 @@
     max-width: 300px;
     max-height: 300px;
   }
-  
-  @media(max-width: 640px){
+  /*media changes*/
+@media(max-width: 640px){
     img{
       min-width: 600px;
       min-height: 600px;
@@ -19,4 +20,10 @@
     .main-title{
       text-align: center;
     }
-  }
+}
+@media(max-width: 768px){
+
+}
+@media(min-width: 960px){
+    
+}
