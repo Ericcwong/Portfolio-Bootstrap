@@ -9,11 +9,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
-        @media(min-width:640px){
-            .col{
-
-            }
+      .header-name{
+        color:white;
+        background: #59aaa5;
+      }
+      img{
+        max-width: 300px;
+        max-height: 300px;
+      }
+      @media(min-width: 640px){
+        img{
+          width: 600px;
+          max-height: 400px;
+          text-align: center;
         }
+        h3{
+          text-align: center;
+        }
+      }
     </style>
   </head>
   <body>
@@ -28,7 +41,7 @@
 
     <div class="row">
             <div class="col-md-4">
-                <h3 class="d-flex h3 header-name justify-content-center">Eric Wong</h3>
+                <h3 class="d-flex h3 header-name justify-content-center color-white">Eric Wong</h3>
             </div>
             <div class="col-md-8">
               <nav class="d-flex nav nav-masthead justify-content-center">
@@ -40,15 +53,12 @@
     </div><!--end of masthead row-->
 
     <div class="row">
-        <div class="col-sm-2 bg-white"></div><!--white space-->
-          <div class="col-sm-8">
+          <div class="col-md-8">
                 <h3>About me</h3>
+                <img src="images/Selfie.jpg" alt="">
                 <p> test</p>
-              </div>
-            </main>
           </div>
-          <div class="col-sm-2 bg-white"></div><!--white space-->
-      </div><!--end of mastmain-row-->
+    </div><!--end of mastmain-row-->
   </div><!--end of container-->
   </body>
 </html>
