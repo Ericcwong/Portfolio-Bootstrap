@@ -35,6 +35,14 @@
 }
 
 @media(max-width: 768px){
+  img{
+    max-width: 275px;
+    max-height:300px;
+
+  }
+  p{
+    overflow: auto;
+  }
 
 }
 @media(min-width: 960px){
