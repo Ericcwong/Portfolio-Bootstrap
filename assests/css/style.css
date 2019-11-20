@@ -10,7 +10,16 @@
     max-width: 300px;
     max-height: 300px;
   }
+  hr{
+    border: 1.25px solid #cccccc;
+  }
+  footer{
+    border-top: 10px solid #4aaaa5;
+    background: #666666;
+    color:white;
+  }
   /*media changes*/
+/*When the page width is at 640px or less*/  
 @media(max-width: 640px){
     img{
       min-width: 600px;
@@ -20,10 +29,14 @@
     .main-title{
       text-align: center;
     }
+    footer{
+        text-align: center;
+    }
 }
+
 @media(max-width: 768px){
 
 }
 @media(min-width: 960px){
-    
+
 }
