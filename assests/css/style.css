@@ -27,7 +27,7 @@
     text-align: center;
     }
 /*About me page*/
-    img{
+    .selfie{
       min-width: 600px;
       min-height: 600px;
       text-align: center;
@@ -39,7 +39,8 @@
     .btn{
       background: #4aaaa5 !important
     }
-
+/*Portfolio*/
+    
 }
 
 @media(max-width: 768px){
