@@ -17,10 +17,16 @@
     border-top: 10px solid #4aaaa5;
     background: #666666;
     color:white;
+    text-align: center;
   }
   /*media changes*/
 /*When the page width is at 640px or less*/  
 @media(max-width: 640px){
+/*standard for all pages*/
+    footer{
+    text-align: center;
+    }
+/*About me page*/
     img{
       min-width: 600px;
       min-height: 600px;
@@ -29,9 +35,11 @@
     .main-title{
       text-align: center;
     }
-    footer{
-        text-align: center;
+/*Contact Me page*/
+    .btn{
+      background: #4aaaa5 !important
     }
+
 }
 
 @media(max-width: 768px){
@@ -42,9 +50,6 @@
     max-height:300px;
 
   }
-  p{
-    overflow: auto;
-  }
   .col-sm-4{
     padding-right: 300px;
   }
@@ -52,6 +57,7 @@
    padding:0;
   }
 }
+
 @media(min-width: 960px){
 
 }
