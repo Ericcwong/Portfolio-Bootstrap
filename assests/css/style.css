@@ -35,6 +35,8 @@
 }
 
 @media(max-width: 768px){
+  .container-fluid{}
+
   img{
     max-width: 275px;
     max-height:300px;
@@ -43,7 +45,12 @@
   p{
     overflow: auto;
   }
-
+  .col-sm-4{
+    padding-right: 300px;
+  }
+  .col-md-7{
+   padding:0;
+  }
 }
 @media(min-width: 960px){
 
