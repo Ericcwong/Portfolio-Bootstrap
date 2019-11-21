@@ -1,4 +1,4 @@
-/*Standard changes*/
+/*Standard changes for all pages*/
 .header-name{
     color:white;
     background: #59aaa5;
@@ -6,10 +6,14 @@
   .main-title{
     color:#59aaa5
   }
-  img{
-    max-width: 350px;
-    max-height: 350px;
+  .nav-link{
+    color: #666666;
   }
+  img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
   hr{
     border: 1.25px solid #cccccc;
   }
@@ -18,14 +22,13 @@
     background: #666666;
     color:white;
     text-align: center;
+    margin-top: 20px;
   }
+
   /*media changes*/
+
 /*When the page width is at 640px or less*/  
 @media(max-width: 640px){
-/*standard for all pages*/
-    footer{
-    text-align: center;
-    }
 /*About me page*/
     .selfie{
       min-width: 600px;
@@ -63,5 +66,9 @@
 }
 
 @media(min-width: 960px){
+  .image-responsive{
+    
+
+  }
 
 }
