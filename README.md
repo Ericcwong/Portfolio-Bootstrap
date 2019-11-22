@@ -1,4 +1,6 @@
 # Designer
+![Profile-pic|300x300,30%](https://user-images.githubusercontent.com/40143714/69387643-b1b68780-0c83-11ea-9fd6-bbbeb9353504.jpg)
+
 
 
 My name is Eric Wong and this is my portfolio project that adjust the content depending on the users browsers width.
