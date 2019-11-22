@@ -9,5 +9,13 @@ My name is Eric Wong and this is my portfolio project that adjust the content de
 # Portfolio-Bootstrap
 ![ezgif com-optimize](https://user-images.githubusercontent.com/40143714/69384524-c42bc380-0c79-11ea-9931-ed1552a986a9.gif)
 
+#Usage
 This project is a portfolio that resizes when the user shrinks the window's width to a smaller pixel and auto adjust itself to whatever width is presented. This way if the user were to view the portfolio though most devices that being: smartphones, tablets, laptops, to desktop computers.
 
+#Credit
+Major help from Bootstraps website
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
+https://www.w3schools.com/
+
+#License
+Code is open source, for as long as the code is not exactly copied.
