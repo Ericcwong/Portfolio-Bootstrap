@@ -1,5 +1,6 @@
 # Designer
-![Profile-pic|300x300,30%](https://user-images.githubusercontent.com/40143714/69387643-b1b68780-0c83-11ea-9fd6-bbbeb9353504.jpg)
+![Profile-pic](https://user-images.githubusercontent.com/40143714/69463591-39aa9900-0d39-11ea-928c-ec7fbfe5cc7b.png)
+
 
 
 
